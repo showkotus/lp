@@ -82,7 +82,6 @@ const LeftSide = () => {
             type="text"
             className="mb-2 w-[100px]  rounded-lg text-center text-yellow-500"
             placeholder="D123456"
-          
           />
           <input
             type="text"

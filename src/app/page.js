@@ -6,7 +6,7 @@ import RightSide from "./component/rightside/RightSide";
 export default function Home() {
   return (
     <main className="">
-      <div className="flex justify-around w-full bg-gray-300">
+      <div className="flex justify-around w-full bg-slate-400">
         <div className="w-[8vw]">
           <input
             type="text"
