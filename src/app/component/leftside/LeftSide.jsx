@@ -75,58 +75,58 @@ const LeftSide = () => {
         <div className="w-[100px] h-[50vh] items-center justify-center mt-1">
           <input
             type="text"
-            className="mb-2 w-[100px] bg-blue-500 rounded-lg text-center"
+            className="mb-2 w-[100px]  rounded-lg text-center"
             placeholder="D123456"
           />
           <input
             type="text"
-            className="mb-2 w-[100px] bg-blue-500 rounded-lg text-center"
+            className="mb-2 w-[100px]  rounded-lg text-center text-yellow-500"
             placeholder="D123456"
           
           />
           <input
             type="text"
-            className="mb-2 w-[100px] bg-blue-500 rounded-lg text-center"
+            className="mb-2 w-[100px]  rounded-lg text-center"
             placeholder="D123456"
           />
           <input
             type="text"
-            className="mb-2 w-[100px] bg-blue-500 rounded-lg text-center"
+            className="mb-2 w-[100px]  rounded-lg text-center"
             placeholder="D123456"
           />
           <input
             type="text"
-            className="mb-2 w-[100px] bg-blue-500 rounded-lg text-center"
+            className="mb-2 w-[100px]  rounded-lg text-center"
             placeholder="D123456"
           />
           <input
             type="text"
-            className="mb-2 w-[100px] bg-blue-500 rounded-lg text-center"
+            className="mb-2 w-[100px]  rounded-lg text-center"
             placeholder="D123456"
           />
           <input
             type="text"
-            className="mb-2 w-[100px] bg-blue-500 rounded-lg text-center"
+            className="mb-2 w-[100px]  rounded-lg text-center"
             placeholder="D123456"
           />
           <input
             type="text"
-            className="mb-2 w-[100px] bg-blue-500 rounded-lg text-center"
+            className="mb-2 w-[100px]  rounded-lg text-center"
             placeholder="D123456"
           />
           <input
             type="text"
-            className="mb-2 w-[100px] bg-blue-500 rounded-lg text-center"
+            className="mb-2 w-[100px]  rounded-lg text-center"
             placeholder="D123456"
           />
           <input
             type="text"
-            className="mb-2 w-[100px] bg-blue-500 rounded-lg text-center"
+            className="mb-2 w-[100px]  rounded-lg text-center"
             placeholder="D123456"
           />
           <input
             type="text"
-            className="mb-2 w-[100px] bg-blue-500 rounded-lg text-center"
+            className="mb-2 w-[100px]  rounded-lg text-center"
             placeholder="D123456"
           />
         </div>
@@ -134,22 +134,22 @@ const LeftSide = () => {
           <div>
             <input
               type="text"
-              className="mb-2 w-[200px] bg-blue-500 rounded-lg text-center"
+              className="mb-2 w-[200px]  rounded-lg text-center"
               placeholder="IMMUNOLGY"
             />
             <input
               type="text"
-              className="mb-2 w-[200px] bg-blue-500 rounded-lg text-center"
+              className="mb-2 w-[200px]  rounded-lg text-center"
               placeholder="Clinical Pathology Urine"
             />
             <input
               type="text"
-              className="mb-2 w-[200px] bg-blue-500 rounded-lg text-center"
+              className="mb-2 w-[200px]  rounded-lg text-center"
               placeholder="BIOCHEMISTRY"
             />
             <input
               type="text"
-              className="mb-2 w-[200px] bg-blue-500 rounded-lg text-center"
+              className="mb-2 w-[200px]  rounded-lg text-center"
               placeholder="HEMATOLOGY"
             />
           </div>
