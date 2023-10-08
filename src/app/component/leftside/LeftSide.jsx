@@ -11,9 +11,7 @@ const LeftSide = () => {
       </div>
       <div className="flex">
         <select className="select select-bordered  bg-green-100 w-[200px] btn-xs ">
-          <option disabled selected>
-            all
-          </option>
+          <option>all</option>
           <option>1</option>
           <option>2</option>
           <option>3</option>
@@ -78,57 +76,58 @@ const LeftSide = () => {
           <input
             type="text"
             className="mb-2 w-[100px] bg-blue-500 rounded-lg text-center"
-            value="D123456"
+            placeholder="D123456"
           />
           <input
             type="text"
             className="mb-2 w-[100px] bg-blue-500 rounded-lg text-center"
-            value="D123456"
+            placeholder="D123456"
+          
           />
           <input
             type="text"
             className="mb-2 w-[100px] bg-blue-500 rounded-lg text-center"
-            value="D123456"
+            placeholder="D123456"
           />
           <input
             type="text"
             className="mb-2 w-[100px] bg-blue-500 rounded-lg text-center"
-            value="D123456"
+            placeholder="D123456"
           />
           <input
             type="text"
             className="mb-2 w-[100px] bg-blue-500 rounded-lg text-center"
-            value="D123456"
+            placeholder="D123456"
           />
           <input
             type="text"
             className="mb-2 w-[100px] bg-blue-500 rounded-lg text-center"
-            value="D123456"
+            placeholder="D123456"
           />
           <input
             type="text"
             className="mb-2 w-[100px] bg-blue-500 rounded-lg text-center"
-            value="D123456"
+            placeholder="D123456"
           />
           <input
             type="text"
             className="mb-2 w-[100px] bg-blue-500 rounded-lg text-center"
-            value="D123456"
+            placeholder="D123456"
           />
           <input
             type="text"
             className="mb-2 w-[100px] bg-blue-500 rounded-lg text-center"
-            value="D123456"
+            placeholder="D123456"
           />
           <input
             type="text"
             className="mb-2 w-[100px] bg-blue-500 rounded-lg text-center"
-            value="D123456"
+            placeholder="D123456"
           />
           <input
             type="text"
             className="mb-2 w-[100px] bg-blue-500 rounded-lg text-center"
-            value="D123456"
+            placeholder="D123456"
           />
         </div>
         <div className="ml-2 mt-1">
@@ -136,22 +135,22 @@ const LeftSide = () => {
             <input
               type="text"
               className="mb-2 w-[200px] bg-blue-500 rounded-lg text-center"
-              value="IMMUNOLGY"
+              placeholder="IMMUNOLGY"
             />
             <input
               type="text"
               className="mb-2 w-[200px] bg-blue-500 rounded-lg text-center"
-              value="Clinical Pathology Urine"
+              placeholder="Clinical Pathology Urine"
             />
             <input
               type="text"
               className="mb-2 w-[200px] bg-blue-500 rounded-lg text-center"
-              value="BIOCHEMISTRY"
+              placeholder="BIOCHEMISTRY"
             />
             <input
               type="text"
               className="mb-2 w-[200px] bg-blue-500 rounded-lg text-center"
-              value="HEMATOLOGY"
+              placeholder="HEMATOLOGY"
             />
           </div>
           <div>
@@ -160,7 +159,6 @@ const LeftSide = () => {
                 {/* head */}
                 <thead>
                   <tr>
-                    
                     <th>Machine</th>
                     <th>result</th>
                     <th>Entry Time</th>
@@ -169,21 +167,18 @@ const LeftSide = () => {
                 <tbody>
                   {/* row 1 */}
                   <tr>
-                    
                     <td>ATEL</td>
                     <td>Quality Control Specialist</td>
                     <td>Blue</td>
                   </tr>
                   {/* row 2 */}
                   <tr>
-                   
                     <td>Hart Hagerty</td>
                     <td>Desktop Support Technician</td>
                     <td>Purple</td>
                   </tr>
                   {/* row 3 */}
                   <tr>
-                    
                     <td>Brice Swyre</td>
                     <td>Tax Accountant</td>
                     <td>Red</td>

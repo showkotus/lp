@@ -7,9 +7,7 @@ export default function Home() {
   return (
     <main className="">
       <div className="flex justify-around w-full bg-gray-300">
-        {/* first part */}
         <div className="w-[8vw]">
-          {/* xs */}
           <input
             type="text"
             placeholder="31/31/2023"
@@ -21,9 +19,7 @@ export default function Home() {
             className="bg-green-100 border-2 w-full"
           />
           <select className="select select-bordered w-full max-w-xs bg-green-100">
-            <option disabled selected>
-              all
-            </option>
+            <option>all</option>
             <option>1</option>
             <option>2</option>
             <option>3</option>
@@ -32,10 +28,9 @@ export default function Home() {
         </div>
 
         <div className="w-[100vw] rounded-2 border justify-center items-center">
-         
-         <UperLine/>
+          <UperLine />
         </div>
-        {/* last part */}
+
         <div className="w-1/5">
           <div>
             <button className="btn bg-blue-500 rounded-lg btn-xs m-1 w-20">
@@ -72,10 +67,10 @@ export default function Home() {
       </div>
       <div className="w-full flex">
         <div className="w-[25vw] h-[100vh] bg-slate-400">
-          <LeftSide/>
+          <LeftSide />
         </div>
         <div className="w-[75vw] bg-gray-200 h-[100vh]">
-          <RightSide/>
+          <RightSide />
         </div>
       </div>
     </main>
