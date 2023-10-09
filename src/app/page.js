@@ -1,7 +1,9 @@
+'use client'
 import Image from "next/image";
 import UperLine from "./component/uper/UperLine";
 import LeftSide from "./component/leftside/LeftSide";
-import RightSide from "./component/rightside/RightSide";
+// import RightSide from "./component/rightside/RightSide";
+import RightTable from "./component/righttable/RightTable";
 
 export default function Home() {
   return (
@@ -70,7 +72,7 @@ export default function Home() {
           <LeftSide />
         </div>
         <div className="w-[75vw] bg-gray-200 h-[100vh]">
-          <RightSide />
+          <RightTable/>
         </div>
       </div>
     </main>
