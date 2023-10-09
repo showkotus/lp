@@ -26,22 +26,24 @@ const RightTable = () => {
     const loadingState = isLoading || data?.results.length === 0 ? "loading" : "idle";
     return (
         <Table
+            isStriped
             aria-label="Example table with client async pagination"
-        //     bottomContent={
-        //         pages > 0 ? (
-        //             <div className="flex w-full justify-center">
-        //                 <Pagination
-        //                     isCompact
-        //                     showControls
-        //                     showShadow
-        //                     color="primary"
-        //                     page={page}
-        //                     total={pages}
-        //                     onChange={(page) => setPage(page)}
-        //                 />
-        //             </div>
-        //         ) : null
-        //     }
+            onCellAction={(key) => alert(`Opening item ${key}...`)}
+            bottomContent={
+                pages > 0 ? (
+                    <div className="flex w-full justify-center">
+                        <Pagination
+                            isCompact
+                            showControls
+                            showShadow
+                            color="primary"
+                            page={page}
+                            total={pages}
+                            onChange={(page) => setPage(page)}
+                        />
+                    </div>
+                ) : null
+            }
         // {...args}
         >
             <TableHeader>
@@ -57,10 +59,10 @@ const RightTable = () => {
             >
                 {(item) => (
                     <TableRow key={item?.name}>
-                        {(columnKey) => 
-                        <TableCell >
-                            {/* {getKeyValue(item, columnKey)} */}
-                            <input type="text" defaultValue={getKeyValue(item, columnKey)} ></input>
+                        {(columnKey) =>
+                            <TableCell  >
+                                {/* {getKeyValue(item, columnKey)} */}
+                                <input type="text" defaultValue={getKeyValue(item, columnKey)} />
                             </TableCell>}
                     </TableRow>
                 )}
